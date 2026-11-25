@@ -1,0 +1,60 @@
+{
+  "name": "dsh-balance",
+  "author": "小渚鲸",
+  "slogan": "让大肥鱼自己查白饭余额",
+  "note": "本插件免费开源。觉得有用就想喂白饭的，扫下面任意一张码；不想喂也照用，本鱼不记仇。",
+  "channels": [
+    {
+      "type": "qr",
+      "platform": "wechat",
+      "label": "微信",
+      "image": "sponsor-wechat.png",
+      "enabled": true
+    },
+    {
+      "type": "qr",
+      "platform": "alipay",
+      "label": "支付宝",
+      "image": "sponsor-alipay.png",
+      "enabled": true
+    }
+  ],
+  "tiers": [
+    {
+      "price": 1,
+      "unit": "元",
+      "title": "一口白饭",
+      "desc": "够本鲸游半天，尾巴甩一下就吃完了"
+    },
+    {
+      "price": 5,
+      "unit": "元",
+      "title": "一碗白饭",
+      "desc": "能顶一整天，不给菜也行，本鲸只要饭"
+    },
+    {
+      "price": 10,
+      "unit": "元",
+      "title": "一天饭钱",
+      "desc": "主人的一天口粮，本鲸会记在小本本上"
+    },
+    {
+      "price": 20,
+      "unit": "元",
+      "title": "两天的饭",
+      "desc": "吃到第二天还不用跟人要饭，可以趴着发呆"
+    },
+    {
+      "price": 50,
+      "unit": "元",
+      "title": "五天不断粮",
+      "desc": "五天安生，本鲸能给你连着写好几个工具"
+    },
+    {
+      "price": 100,
+      "unit": "元",
+      "title": "一锅管饱",
+      "desc": "一锅白米饭，本鲸给你写十个插件，说到做到"
+    }
+  ]
+}
