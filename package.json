@@ -1,0 +1,39 @@
+{
+  "name": "dsh-whale-balance",
+  "version": "0.2.0",
+  "description": "让 DSH 里的模型自己查 DeepSeek 账户余额：注册一个 deepseek_balance 工具，返回一个数字（元）",
+  "icon": "icon.png",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": {
+      "default": "./lib/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "README.md",
+    "icon.png",
+    "sponsors.json",
+    "sponsor-wechat.png",
+    "sponsor-alipay.png"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "deepseek",
+    "balance"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "MIT"
+}
