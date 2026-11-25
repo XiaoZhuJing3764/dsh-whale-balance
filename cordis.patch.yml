@@ -1,0 +1,10 @@
+# dsh-whale-balance mount point. config is passed to apply(ctx, config) as-is.
+- insert:
+    - id: balance
+      name: dsh-whale-balance
+      config:
+        enabled: true
+        currency: CNY
+        ttlMs: 15000
+        timeoutMs: 10000
+        keyFile: ''
